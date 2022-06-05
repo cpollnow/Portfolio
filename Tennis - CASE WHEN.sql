@@ -1,4 +1,4 @@
-SELECT Player_Name, Player_Under_Pressure_Rating, Player_Break_Points_Converted, Player_Break_Points_Saved, Player_Tie_Breaks_Won, Player_Deciding_Set_Won,
+SELECT Player_Name, Player_Under_Pressure_Rating
 (SELECT 
 CASE
 WHEN Player_Under_Pressure_Rating > 250 THEN 'Godlike'
