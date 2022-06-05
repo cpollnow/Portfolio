@@ -1,3 +1,5 @@
+/*CASE statement to determine whether a flight is early, on-time, late.*/
+
 USE Flights
 GO
 SELECT airports.Name, OriginAirportID, DestAirportID, DepDelay,
