@@ -1,3 +1,5 @@
+/*CASE statement to determine whether a flight is early, on-time, late.*/
+
 USE Flights
 GO
 SELECT COUNT(AirportID) AS Airport_Delay_Count, AirportID
