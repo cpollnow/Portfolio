@@ -12,7 +12,7 @@ FROM MailChimp
 WHERE Subject LIKE '%trout%'
 ORDER BY Unsubscribes DESC
 
-*/Query to determine the average number of unsubscribes*/
+/*Query to determine the average number of unsubscribes*/
 SELECT AVG(Unsubscribes) AS Avg_Unsubscribes
 FROM MailChimp AS MC
 
